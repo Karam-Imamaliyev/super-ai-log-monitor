@@ -1,0 +1,13 @@
+log_file_path: "./data/mylog.log"
+
+database:
+  path: "../db/anomalies.db"
+
+model:
+  type: "isolation_forest"
+  contamination: 0.05
+  random_state: 42
+
+monitor:
+  mode: "realtime"    # or "batch"
+  scan_interval: 2    # in second  (in batch mode)

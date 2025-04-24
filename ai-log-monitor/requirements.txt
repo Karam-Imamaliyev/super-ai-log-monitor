@@ -1,0 +1,6 @@
+pyyaml
+scikit-learn
+watchdog
+pandas
+streamlit
+
