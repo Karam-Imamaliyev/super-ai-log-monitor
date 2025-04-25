@@ -116,7 +116,7 @@ python upload_to_s3.py
 
 ```
 ---
-What does the ¨AI¨ in ¨Super Log Monitor with AI actually do?¨
+### What does the ¨AI¨ in ¨Super Log Monitor with AI actually do?¨
 ¨The AI component refers to a machine learning model that performs anomally detection on incoming log messages. It analyzes log lines using engineered features such as:
 
 * Message length
