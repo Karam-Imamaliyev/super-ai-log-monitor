@@ -115,6 +115,18 @@ python upload_to_s3.py
 └── aws_test.py
 
 ```
+---
+What does the ¨AI¨ in ¨Super Log Monitor with AI actually do?¨
+¨The AI component refers to a machine learning model that performs anomally detection on incoming log messages. It analyzes log lines using engineered features such as:
+
+* Message length
+* IP address repetition frequency
+* Character-level entropy
+
+These features are used to generate a vector for each log line, which is then passed into a petrained Isolation Forest model (unsupervised learning).
+If the model determines that a log is significantly different from normal patterns, it flags it is as an anomaly.
+
+This allows the system to detect suspicious ativity or abnormal system behavior in real time, without requiring labeled data or manual rules. 
 
 ---
 
