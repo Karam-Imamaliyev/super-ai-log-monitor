@@ -16,7 +16,7 @@ from feature_pipeline import extract_features, fit_vectorizer
 from datetime import datetime
 
 
-# ========== Config ve Path ==========
+# Config ve Path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 config_path = os.path.join(BASE_DIR, "config", "settings.yaml")
 config = load_config(config_path)
@@ -24,7 +24,7 @@ config = load_config(config_path)
 db_path = os.path.abspath(os.path.join(BASE_DIR, config["database"]["path"]))
 log_file_path = os.path.abspath(os.path.join(BASE_DIR, config["log_file_path"]))
 
-# ========== Logger Ayarı ==========
+# Logger Ayarı
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 os.makedirs(LOG_DIR, exist_ok=True)
 
@@ -43,7 +43,7 @@ console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 
-# ========== Log File Event Handler ==========
+# Log File Event Handler
 class LogFileHandler(FileSystemEventHandler):
     def __init__(self, model, db, logger):
         self.model = model
@@ -90,7 +90,7 @@ class LogFileHandler(FileSystemEventHandler):
 print("[DEBUG] Watching file:", log_file_path)
 print(f"[DEBUG] Using database file at: {db_path}")
 
-# ========== Monitor Başlatıcı ==========
+# Monitoring starter
 def start_monitoring():
     if not os.path.exists(log_file_path):
         raise FileNotFoundError(f"Log file not found at {log_file_path}")
@@ -106,7 +106,7 @@ def start_monitoring():
         random_state=config["model"]["random_state"]
     )
 
-    # İlk 500 kayıtla fit
+    # first 500 log
     with open(log_file_path, "r") as f:
         training_messages = [parse_log_line(line)[2] for _, line in zip(range(500), f)]
     fit_vectorizer(training_messages)
@@ -114,7 +114,7 @@ def start_monitoring():
 
 
 
-    # Observer başlat
+    # Observer start
     event_handler = LogFileHandler(model, db, logger)
     observer = Observer()
     observer.schedule(event_handler, path=os.path.dirname(log_file_path), recursive=False)
