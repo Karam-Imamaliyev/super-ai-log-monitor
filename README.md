@@ -59,6 +59,8 @@ monitor:
 ### 3. Start Real-Time Monitoring
 ```bash
 python src/monitor.py
+or
+python src/main.py
 ```
 
 ### 4.  Launch Dashboard
