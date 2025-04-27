@@ -1,0 +1,93 @@
+2025-04-22 21:02:02,730 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:02:13,125 [WARNING] Anomaly Detected: Unauthorized access attempt from 192.168.1.15
+2025-04-22 21:40:02 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:40:13 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:41:24 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:42:09 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:48:41 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-22 21:48:52 [INFO] Anomaly Detected | IP: 192.168.1.15 | Score: -0.03 | Message: Unauthorized access attempt from 192.168.1.15
+2025-04-23 22:26:16 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-23 22:27:14 [INFO] Anomaly Detected | IP: 192.168.1.15 | Score: -0.04 | Message: Unauthorized access attempt from 192.168.1.15
+2025-04-23 22:32:38 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:01:48 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:39:47 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:40:12 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:51:45 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:51:52 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:52:49 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:53:27 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 20:54:02 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:05:30 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:06:39 [INFO] Monitoring started... Press Ctrl+C to stop.
+
+
+2025-04-24 21:08:01 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.02 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-24 21:39:22 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:41:48 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:41:59 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:42:23 [INFO] Anomaly Detected | IP: 192.168.1.15 | Score: -0.02 | Msg Len: 45 | Count: 1 | Message: Unauthorized access attempt from 192.168.1.15
+2025-04-24 21:46:23 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-24 21:47:14 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-25 21:18:39 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-25 21:26:16 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-25 21:30:12 [INFO] Anomaly Detected | IP: 192.168.1.15 | Score: -0.03 | Msg Len: 45 | Count: 1 | Message: Unauthorized access attempt from 192.168.1.15
+2025-04-27 09:10:14 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 09:37:25 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 11:50:24 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:04:13 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:04:22 [WARNING] Anomaly Detected | IP: 192.168.1.15 | Score: -0.03 | Message: Unauthorized access attempt from 192.168.1.15
+
+
+2025-04-27 12:07:39 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:07:46 [WARNING] Anomaly Detected | IP: None | Score: -0.00 | Message: System started successfully
+2025-04-27 12:07:46 [WARNING] Anomaly Detected | IP: 192.168.1.15 | Score: -0.02 | Message: Unauthorized access attempt from 192.168.1.15
+2025-04-27 12:09:21 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:09:28 [WARNING] Anomaly Detected | IP: None | Score: -0.00 | Message: Routine check completed
+2025-04-27 12:09:28 [WARNING] Anomaly Detected | IP: 192.168.1.200 | Score: -0.02 | Message: Connection reset from 192.168.1.200
+2025-04-27 12:30:18 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:51:27 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:56:25 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 12:56:32 [INFO] Anomaly Detected | IP: None | Score: -0.01 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 12:56:32 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.02 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 13:15:03 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 13:17:15 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:07:15 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:07:35 [INFO] Anomaly Detected | IP: None | Score: -0.02 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 16:07:35 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.05 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 16:21:39 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:26:16 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:26:25 [INFO] Anomaly Detected | IP: None | Score: -0.01 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 16:26:25 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.04 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 16:30:35 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:31:13 [INFO] Anomaly Detected | IP: None | Score: -0.02 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 16:31:13 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.05 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 16:33:36 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 16:33:44 [INFO] Anomaly Detected | IP: None | Score: -0.02 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 16:33:44 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.05 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 16:34:50 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:00:49 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:01:07 [INFO] Anomaly Detected | IP: None | Score: -0.03 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:01:07 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.06 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 17:07:36 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:07:46 [INFO] Anomaly Detected | IP: None | Score: -0.03 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:07:46 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.05 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 17:15:53 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:16:07 [INFO] Anomaly Detected | IP: None | Score: -0.03 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:18:07 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:18:27 [INFO] Anomaly Detected | IP: None | Score: -0.04 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:18:27 [INFO] Anomaly Detected | IP: None | Score: -0.00 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 17:18:27 [INFO] Anomaly Detected | IP: 192.168.1.200 | Score: -0.05 | Msg Len: 35 | Count: 1 | Message: Connection reset from 192.168.1.200
+2025-04-27 17:22:09 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:22:21 [INFO] Anomaly Detected | IP: None | Score: -0.01 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:22:21 [INFO] Anomaly Detected | IP: None | Score: -0.01 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 17:31:04 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:32:51 [INFO] Anomaly Detected | IP: None | Score: -0.00 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:32:51 [INFO] Anomaly Detected | IP: None | Score: -0.02 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 17:34:20 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:34:29 [INFO] Anomaly Detected | IP: None | Score: -0.00 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:34:29 [INFO] Anomaly Detected | IP: None | Score: -0.03 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 17:44:46 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 17:44:57 [INFO] Anomaly Detected | IP: None | Score: -0.00 | Msg Len: 27 | Count: 0 | Message: System started successfully
+2025-04-27 17:44:57 [INFO] Anomaly Detected | IP: None | Score: -0.03 | Msg Len: 23 | Count: 0 | Message: Routine check completed
+2025-04-27 18:03:31 [INFO] Monitoring started... Press Ctrl+C to stop.
+2025-04-27 18:07:13 [INFO] Monitoring started... Press Ctrl+C to stop.

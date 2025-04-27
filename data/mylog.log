@@ -1,0 +1,33 @@
+2025-04-22 19:10:01 INFO System started successfully
+2025-04-22 19:10:10 ERROR Unauthorized access attempt from 192.168.1.15
+2025-04-22 19:11:05 INFO Routine check completed
+
+
+
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+2025-04-23 22:28:00 ERROR Unauthorized login from 123.123.123.123
+
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.99
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.99
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.91
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.91
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.91
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.94
+
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+
+2025-04-22 19:40:33 ERROR Root login attempt from 10.10.10.10
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.94
+
+2025-04-27 13:00:00 ERROR Unauthorized access attempt from 192.168.1.94
