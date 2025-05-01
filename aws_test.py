@@ -7,8 +7,8 @@ s3 = boto3.client("s3", region_name="eu-central-1", config=botocore.config.Confi
 try:
     # List all buckets
     response = s3.list_buckets()
-    print("✅ Your S3 Buckets:")
+    print("Your S3 Buckets:")
     for bucket in response["Buckets"]:
         print(" -", bucket["Name"])
 except Exception as e:
-    print("❌ Error:", e)
+    print(" Error:", e)
