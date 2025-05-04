@@ -30,7 +30,7 @@ Built for developers, analysts, and security teams who need automated monitoring
 
 ---
 
-## ------------------- How to Run & Test Locally --------------------- 
+## How to Run & Test Locally 
 
 ### 1. Install Requirements
 ```bash
